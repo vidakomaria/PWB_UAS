@@ -1,7 +1,9 @@
 <?php
 
-class Home {
+class Home extends Controller { //inheritance ke class controller
     public function index(){
-        echo "Home/index";
+        $this->view('templates/header');
+        $this->view('home/index');
+        $this->view('templates/footer');
     }
 }
