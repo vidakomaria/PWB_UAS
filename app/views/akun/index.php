@@ -2,6 +2,7 @@
     <div class="card">
         <div class="card-header">
             <h1>LOGIN</h1>
+            <h3>Selamat Datang <?=$data['nama'];?></h3>
         </div>
         <div class="card-body ">
             <form action="" method="post">

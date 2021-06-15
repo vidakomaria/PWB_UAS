@@ -2,7 +2,12 @@
 
 class controller{
     public function view($view, $data = []){
-        $data['judul']='Home';
         require_once '../app/views/' . $view . '.php';
+    }
+
+    public function model($model){
+        require_once '../app/models/' .$model . '.php';
+        return new $model;
+
     }
 }

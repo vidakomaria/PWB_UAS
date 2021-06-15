@@ -2,7 +2,8 @@
 
 class Donasi extends Controller{
     public function index(){
-        $this->view('templates/header');
+        $data['judul']='Perkembangan Donasi';
+        $this->view('templates/header',$data);
         $this->view('donasi/index');
         $this->view('templates/footer');
     }
