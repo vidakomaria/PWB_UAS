@@ -1,10 +1,9 @@
 <?php
 
-class About extends Controller{
+class Donasi extends Controller{
     public function index(){
         $this->view('templates/header');
-        $this->view('about/index');
+        $this->view('donasi/index');
         $this->view('templates/footer');
     }
-
 }

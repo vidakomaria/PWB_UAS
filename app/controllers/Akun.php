@@ -1,9 +1,9 @@
 <?php
 
-class About extends Controller{
+class Akun extends Controller{
     public function index(){
         $this->view('templates/header');
-        $this->view('about/index');
+        $this->view('akun/index');
         $this->view('templates/footer');
     }
 
