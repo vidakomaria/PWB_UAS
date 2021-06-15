@@ -9,19 +9,27 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #03256C  ">
+<nav class="navbar navbar-expand-lg navbar-light justify-content-end" style="background-color: #03256C  ">
     <div class="container">
         <a class="navbar-brand text-capitalize text-white " href="<?=BASEURL;?>">"Judul"</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav " >
+        <ul class="nav justify-content-end mt-3 mb-3" style="background-color: #03256C  ">
+            <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="<?=BASEURL?>">Home</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-white" href="<?=BASEURL;?>/donasi">Perkembangan Donasi</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-white" href="<?=BASEURL;?>/about">About</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link text-white" href="<?=BASEURL;?>/akun">Akun</a>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
 </nav>
+
+
