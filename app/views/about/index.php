@@ -81,8 +81,6 @@
           </p>
         </div>
         <div class="col-md-5"><img src="img/revenue_.svg" alt="" /></div>
-      </div>
-    </div>
  
 <section class="contact p-5">
       <div class="container">
