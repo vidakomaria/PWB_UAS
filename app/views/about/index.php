@@ -74,11 +74,10 @@
           <button type="button " class="btn btn-outline-success mb-3">
           Berdonasi Sekarang!
           </button>
-          <h1>We LALALA.</h1>
+          <h1>Email Resmi Kami</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Delectus, tempore placeat corrupti enim, cumque ex? Mollitia nihil
-            sint cumque omnis iure nisi.
+            Kami terbuka dalam kolaborasi atau pun kerjasama dengan instansi yang mampu mendukung
+            pencapaian tujuan besar kami. Kirim proposal kerja sama anda melalui email ke id.donate@wecare.org
           </p>
         </div>
         <div class="col-md-5"><img src="img/revenue_.svg" alt="" /></div>
@@ -121,7 +120,7 @@
             </button>
           </div>
           <div class="col-md-5">
-            <img src="img/handshake.svg" alt="Contact image" />
+            <img src="img/Keluarga.jpg" alt="Contact image" />
           </div>
         </div>
       </div>
