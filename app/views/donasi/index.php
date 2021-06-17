@@ -25,12 +25,14 @@
     <div class="row">
         <header>
           <h2 class="text-uppercase text-primary m-t-0 m-b-40">PRIVACY POLICY</h2>
-        </header>
+        </header><br>
         <article class="m-b-40">
-         <p class="m-0">Kami berkomitmen melindungi privasi online Anda dengan tidak menyewakan, menjual atau menukarkan alamat email dan nomor ponsel Anda.</p>
+         <p class="m-0">Kami berkomitmen melindungi privasi online Anda dengan tidak menyewakan, menjual atau <br>menukarkan alamat email dan nomor ponsel Anda.<br>
+           Dengan bergabung, kami akan dapat mengirimkan pesan dan pemberitahuan kepada Anda dikemudian hari.
+         </p>
     </article>
 </div>
-
+<br>
 <?php
 $message = "";
 
@@ -38,9 +40,10 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["phone"])){
 $name = $_POST["name"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
-$data = "INSERT INTO user(name, email, phone) VALUE (:name, :email, :phone)";
+$password = $_POST["password"];
+$data = "INSERT INTO user(name, email, phone, password) VALUE (:name, :email, :phone, :password)";
 $statement = $connection ->prepare($data);
-if ($statement ->execute([":name" => $name, ":email"=>$email, ":phone-number"=>$phone-number])){
+if ($statement ->execute([":name" => $name, ":email"=>$email, ":phone-number"=>$phone-number, ":password"=>$password])){
     $message = "Pendaftaran Berhasil";
 }
 }
@@ -49,28 +52,34 @@ if ($statement ->execute([":name" => $name, ":email"=>$email, ":phone-number"=>$
 <div class="container">
 <div class="card">
     <div class="card-body">
+      <div class="col-md-5 col-md-push-2">
         <?php if (!empty($message)): ?>
         <div class="alert alert-success">
             <?= $message ?>
         </div>
         <?php endif; ?>
-        <form action="" method="post">
+        <form action="" method="post" sty>
             <div class="form-group">
-                <label for="name">Nama Lengkap</label>
-                <input type="text" name="name" id="name" class="form-control">
+              <br>
+                <input type="text" placeholder="Nama Lengkap" name="name" id="name" class="form-control">
             </div>
             <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="form-control">
+              <br>
+                <input type="email" placeholder="Email" name="email" id="email" class="form-control">
             </div>
             <div class="form-group">
-                <label for="phone">Nomor Handphone</label>
-                <input type="text" name="author" id="author" class="form-control">
+                <br>
+                <input type="text" placeholder="Nomor Handphone" name="author" id="author" class="form-control">
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-info mt-3">Daftar</button>
+              <br>
+              <input type="password" placeholder="Password" name="password" id="password" class="form-control">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-info mt-3 text-uppercase w-100 text-white" style="background-color:#000080;">Daftar</button>
             </div>
         </form>
+        </div>
     </div>
 </div>
 </div>
