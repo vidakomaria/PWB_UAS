@@ -3,13 +3,13 @@
     <div class="col-sm-12 col-md-5">
       <h1>About Us</h1>
       <p>
-      Tujuan utama kami adalah untuk mewujudkan masyarakat yang berakhlak mulia, bermoral, 
-      beretika, berbudaya, dan beradab berdasarkan falsafah Pancasila. Harapan kami membimbing lebih 
-      banyak orang untuk ikut berupaya dalam mewujudkan bangsa yang berdaya-saing. Kami yakin bahwa 
+      Tujuan utama kami adalah untuk mewujudkan masyarakat yang berakhlak mulia, bermoral,
+      beretika, berbudaya, dan beradab berdasarkan falsafah Pancasila. Harapan kami membimbing lebih
+      banyak orang untuk ikut berupaya dalam mewujudkan bangsa yang berdaya-saing. Kami yakin bahwa
       Indonesia mampu memiliki masyarakat yang berjiwa demokratis berlandaskan hukum. Impian kami yang
-      utama adalah menciptakan Indonesia aman, damai, dan bersatu. mewujudkan pemerataan pembangunan dan 
-      berkeadilan. Serta mewujudkan Indonesia asri dan lestari yang mampu berperan penting dalam pergaulan dunia 
-      internasional. 
+      utama adalah menciptakan Indonesia aman, damai, dan bersatu. mewujudkan pemerataan pembangunan dan
+      berkeadilan. Serta mewujudkan Indonesia asri dan lestari yang mampu berperan penting dalam pergaulan dunia
+      internasional.
       </p>
       <button type="button" class="btn btn-outline-success btn-lg">
         Learn more
@@ -29,10 +29,10 @@
   <div class="row justify-content-center p-5">
     <div class="col-sm-8">
       <div class="p-12 bg-light">
-      “If poverty is a disease that infects the entire community in the form of unemployment and violence, failing schools and broken homes, 
+      “If poverty is a disease that infects the entire community in the form of unemployment and violence, failing schools and broken homes,
       then we can’t just treat those symptoms in isolation. We have to heal that entire community.” — Barack Obama
       <br>
-      (Jika kemiskinan adalah penyakit yang menginfeksi seluruh komunitas dalam bentuk pengangguran dan kekerasan, pendidikan yang gagal, 
+      (Jika kemiskinan adalah penyakit yang menginfeksi seluruh komunitas dalam bentuk pengangguran dan kekerasan, pendidikan yang gagal,
       dan rumah tangga yang berantakan, maka kita tidak bisa begitu saja mengobati gejala-gejala itu secara terpisah. Kita harus menyembuhkan seluruhnya.)
       </div>
     </div>
@@ -42,7 +42,7 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
           <button type="button" class="btn btn-outline-warning mb-3">
-          Hubungi Kami Sekarang! 
+          Hubungi Kami Sekarang!
           </button>
           <h1>Layanan Donatur Kami</h1>
           <p>
@@ -81,15 +81,15 @@
           </p>
         </div>
         <div class="col-md-5"><img src="img/revenue_.svg" alt="" /></div>
- 
+
 <section class="contact p-5">
       <div class="container">
         <div class="row  align-items-center justify-content-center">
           <div class="col-md-5">
             <h1>Contact us:</h1>
             <div class="mb-3">
-              <label 
-                for="exampleFormControlInput1" 
+              <label
+                for="exampleFormControlInput1"
                 class="form-label">
                 Email address
               </label>
@@ -102,7 +102,7 @@
             </div>
             <div class="mb-3">
               <label
-                for="exampleFormControlTextarea1" 
+                for="exampleFormControlTextarea1"
                 class="form-label">
               Pesan untuk kami
               </label>
