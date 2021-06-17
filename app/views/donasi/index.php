@@ -11,7 +11,7 @@
 </div>
 <div class="container">
   <div class="card-header">
-    <h1><center>Daftar Sekarang Juga!!!</center></h1>
+    <h1><center>Daftar Sekarang!!!</center></h1>
     <p><center>
       Bergabung bersama kami untuk terus mendapatkan cerita perubahan dari Anak-anak Indonesia dan kegiatan <span>WeCareIndo</span> lainnya.
       Ketahui bagaimana donasi anda membawa perubahan nyata bagi hidup mereka.
