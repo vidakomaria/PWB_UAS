@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 class Akun_model{
     private $tabel = 'akun';
@@ -14,18 +15,18 @@ class Akun_model{
     }
 
     public function getLogin($username, $password){
-        $this->db->query('SELECT * FROM ' . $this->tabel . ' WHERE username=:user');
+        $this->db->query('SELECT * FROM ' . $this->tabel . ' WHERE username=:user AND password=:pass');
         $this->db->bind('user', $username);
-        $result = $this->db->resultAll();
-        foreach ($result as $item){
-            $id = $item['idAkun'];
-            $user= $item['username'];
-            $pw = $item['password'];
+        $this->db->bind('pass', $password);
+        $result = $this->db->resultSingle();
+        if (isset($result)){
+            $_SESSION["status"]=true;
+        } else{
+            $_SESSION["status"]=false;
         }
-        if ($user == $username AND $pw == $password){
-            $_SESSION['status'] = True;
-        }else{
-            $_SESSION['status'] = False;
-        }
+    }
+
+    public function clearsession(){
+        session_destroy();
     }
 }

@@ -65,8 +65,4 @@ class Database{
         $this->execute();
         return $this->stmt->fetch(PDO::FETCH_ASSOC);
     }
-
-    public function getConn(){
-        return $this->connection;
-    }
 }
