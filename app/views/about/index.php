@@ -42,7 +42,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
-          <button type="button" class="btn btn-outline-warning mb-3">
+          <button type="button" class="btn btn-outline-success mb-3">
           Hubungi Kami Sekarang!
           </button>
           <h1>Layanan Donatur Kami</h1>
