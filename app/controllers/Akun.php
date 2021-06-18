@@ -2,7 +2,7 @@
 
 class Akun extends Controller {
 
-    public  function index(){
+    public function index(){
         $data['judul']='Log In';
         $this->model("Akun_model")->clearsession();
         $this->view('templates/header',$data);
@@ -39,8 +39,15 @@ class Akun extends Controller {
             $this->view('templates/footer');
         }
         else{
-            $this->view('akun/index',$data);
+            $_SESSION['error']=true;
+            header("Location: " . BASEURL . '/akun');
         }
-
+    }
+    public function edit(){
+        if ($this->model('Akun_model')->editAkun($_POST['nama'],$_POST['username'],$_POST['password'], $_POST['email'], $_POST['noHp'], $_POST['idAkun']) > 0){
+            $_SESSION['update']=true;
+            header("Location: " . BASEURL . '/akun');
+            exit;
+        }
     }
 }

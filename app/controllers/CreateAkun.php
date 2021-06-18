@@ -11,7 +11,10 @@ class CreateAkun extends Controller {
 
     }
     public function addAkun(){
-
+        if ($this->model('Akun_model')->addAkun($_POST['nama'],$_POST['username'],$_POST['password'], $_POST['email'], $_POST['noHp']) > 0){
+            header("Location: " . BASEURL . '/createAkun');
+            exit;
+        }
     }
 
 

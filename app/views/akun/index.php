@@ -3,6 +3,13 @@
         <div class="card-header">
             <h3 class="text-md-center">LOGIN</h3>
         </div>
+        <div>
+            <?php if (isset($_SESSION['update'])){?>
+                <div class="alert alert-success" role="alert">
+                    <h6>Berhasil Diupdate</h6>
+                </div>
+            <?php }?>
+        </div>
         <div class="card-body">
             <form method="POST" action="<?=BASEURL;?>/akun/tampilkanAkun">
                 <div class="mb-3">
@@ -26,7 +33,7 @@
                 </div>
             </form>
             <div>
-                <?php if (isset($data['error'])){?>
+                <?php if (isset($_SESSION['error'])){?>
                     <div class="alert alert-danger" role="alert">
                         <h6>Username/Password salah</h6>
                     </div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 18 Jun 2021 pada 07.44
+-- Waktu pembuatan: 18 Jun 2021 pada 13.35
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `akun` (
   `idAkun` int(11) NOT NULL,
-  `nama lengkap` varchar(100) NOT NULL,
+  `nama_lengkap` varchar(100) NOT NULL,
   `username` varchar(30) NOT NULL,
   `password` varchar(30) NOT NULL,
   `email` varchar(100) NOT NULL,
@@ -40,22 +40,31 @@ CREATE TABLE `akun` (
 -- Dumping data untuk tabel `akun`
 --
 
-INSERT INTO `akun` (`idAkun`, `nama lengkap`, `username`, `password`, `email`, `noHp`) VALUES
-(1, 'donatur', 'user', '123', 'donatur1@gmail.com', '081234567990'),
-(2, 'donatur2', 'user2', '111', '', '0');
+INSERT INTO `akun` (`idAkun`, `nama_lengkap`, `username`, `password`, `email`, `noHp`) VALUES
+(1, 'donaturNew', 'user', '123', 'donatur1@gmail.com', '081234567990'),
+(2, 'donatur2', 'user2', '111', '', '0'),
+(5, 'vida komaria', 'vida5', 'admin', 'vidakomaria47@gmail.com', '082222333444');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `data donasi`
+-- Struktur dari tabel `data_donasi`
 --
 
-CREATE TABLE `data donasi` (
-  `idAkun` int(10) NOT NULL,
+CREATE TABLE `data_donasi` (
+  `idDonasi` int(11) NOT NULL,
+  `idAkun` int(25) NOT NULL,
   `tanggal` date NOT NULL,
-  `jumlah` int(50) NOT NULL,
-  `keterangan` varchar(500) NOT NULL
+  `jumlah` int(100) NOT NULL,
+  `keterangan` varchar(700) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `data_donasi`
+--
+
+INSERT INTO `data_donasi` (`idDonasi`, `idAkun`, `tanggal`, `jumlah`, `keterangan`) VALUES
+(1, 1, '2021-06-01', 300000, 'Donasi yang anda berikan disalurkan untuk pemberian bantuan berupa seragam kepada siswa SD daerah Jember yang memiliki ekonomi kurang mampu dan tidak memiliki seragam yang layak');
 
 --
 -- Indexes for dumped tables
@@ -68,6 +77,12 @@ ALTER TABLE `akun`
   ADD PRIMARY KEY (`idAkun`);
 
 --
+-- Indeks untuk tabel `data_donasi`
+--
+ALTER TABLE `data_donasi`
+  ADD PRIMARY KEY (`idDonasi`);
+
+--
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
@@ -75,7 +90,13 @@ ALTER TABLE `akun`
 -- AUTO_INCREMENT untuk tabel `akun`
 --
 ALTER TABLE `akun`
-  MODIFY `idAkun` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idAkun` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT untuk tabel `data_donasi`
+--
+ALTER TABLE `data_donasi`
+  MODIFY `idDonasi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
