@@ -23,8 +23,11 @@
         src="img/About Us.jpg"
         alt="About Us Image"
       />
+    </div>
   </div>
 </div>
+
+
 <div class="container">
   <div class="row justify-content-center p-5">
     <div class="col-sm-8">
@@ -39,92 +42,93 @@
   </div>
 </div>
 
-    <div class="container">
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-5">
-          <button type="button" class="btn btn-outline-success mb-3">
-          Hubungi Kami Sekarang!
-          </button>
-          <h1>Layanan Donatur Kami</h1>
-          <p style="text-align:justify;">
-            Kami memberikan kemudahan bagi anda yang ingin ikut berkontribusi menuju kebaikan
-            bersama Indonesia. Donasi anda akan disalurkan kepada pihak paling membutuhkan.
-            <br>
-            Contact Person:
-            <br>
-            Sheryl Aurelia (+62 823-0107-7262)
-            <br>
-            Vida Komaria (+62 822-5760-0224)
-            <br>
-            Nabila Syafa'ah Shoufia Dalillah (+62 895-1316-1216)</p>
-        </div>
-          
-
-        <div class="col-md-5"></div>
-        <div class="col-md-5"></div>
-        <div class="col-md-5">
-          <button type="button " class="btn btn-outline-success mb-3">
-          Berdonasi Sekarang!
-          </button>
-          <h1>Jam Operasional</h1>
-          <p>
-            Kami siap melayani anda setiap hari Senin - Jumat tepatnya pada pukul 09.00 – 16.00
-            pada Waktu Indonesia Barat.
-          </p>
-        </div>
-        <div class="col-md-5">
-          <button type="button " class="btn btn-outline-success mb-3">
-          Bermitra Sekarang!
-          </button>
-          <h1>Email Resmi Kami</h1>
-          <p style="text-align:justify;">
-            Kami terbuka dalam kolaborasi atau pun kerjasama dengan instansi yang mampu mendukung
-            pencapaian tujuan besar kami. Kirim proposal kerja sama anda melalui email ke id.donate@wecare.org
-          </p>
-        </div>
-        <div class="col-md-5"><img src="img/revenue_.svg" alt="" /></div>
-      </div>
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-5">
+      <button type="button" class="btn btn-outline-success mb-3">
+        Hubungi Kami Sekarang!
+      </button>
+      <h1>Layanan Donatur Kami</h1>
+      <p style="text-align:justify;">
+        Kami memberikan kemudahan bagi anda yang ingin ikut berkontribusi menuju kebaikan
+        bersama Indonesia. Donasi anda akan disalurkan kepada pihak paling membutuhkan.
+        <br>
+        Contact Person:
+        <br>
+        Sheryl Aurelia (+62 823-0107-7262)
+        <br>
+        Vida Komaria (+62 822-5760-0224)
+        <br>
+        Nabila Syafa'ah Shoufia Dalillah (+62 895-1316-1216)</p>
     </div>
+
+    <div class="col-md-5"></div>
+    <div class="col-md-5"></div>
+    <div class="col-md-5">
+      <button type="button " class="btn btn-outline-success mb-3">
+      Berdonasi Sekarang!
+      </button>
+      <h1>Jam Operasional</h1>
+      <p>
+        Kami siap melayani anda setiap hari Senin - Jumat tepatnya pada pukul 09.00 – 16.00
+        pada Waktu Indonesia Barat.
+      </p>
+    </div>
+    <div class="col-md-5">
+      <button type="button " class="btn btn-outline-success mb-3">
+      Bermitra Sekarang!
+      </button>
+      <h1>Email Resmi Kami</h1>
+      <p style="text-align:justify;">
+        Kami terbuka dalam kolaborasi atau pun kerjasama dengan instansi yang mampu mendukung
+        pencapaian tujuan besar kami. Kirim proposal kerja sama anda melalui email ke id.donate@wecare.org
+      </p>
+    </div>
+    <div class="col-md-5">
+      <img src="img/revenue_.svg" alt="" />
+    </div>
+  </div>
 </div>
+
 <div>
-    <section class="contact p-5">
-          <div class="container">
-            <div class="row  align-items-center justify-content-center">
-              <div class="col-md-5">
-                <h1>Contact us:</h1>
-                <div class="mb-3">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label">
-                    Email address
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="exampleFormControlInput1"
-                    placeholder="name@example.com"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label
-                    for="exampleFormControlTextarea1"
-                    class="form-label">
-                  Pesan untuk kami
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                  ></textarea>
-                </div>
-                <button type="button" class="btn btn-outline-secondary">
-                  Send
-                </button>
+  <section class="contact p-5">
+        <div class="container">
+          <div class="row  align-items-center justify-content-center">
+            <div class="col-md-5">
+              <h1>Contact us:</h1>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
               </div>
-              <div class="col-md-5">
-                <img src="img/Keluarga.jpg" alt="Contact image" />
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label">
+                Pesan untuk kami
+                </label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
               </div>
+              <button type="button" class="btn btn-outline-secondary">
+                Send
+              </button>
+            </div>
+            <div class="col-md-5">
+              <img src="img/Keluarga.jpg" alt="Contact image" />
             </div>
           </div>
-    </section>
+        </div>
+  </section>
 </div>
