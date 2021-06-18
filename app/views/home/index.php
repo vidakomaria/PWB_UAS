@@ -1,10 +1,12 @@
 <div class="container mt-3">
-    <div class="card-header" style="text-align:center">
+    <div class="card-header">
         <h1>Bantu Generasi Muda untuk Melanjutkan Mimpi Mereka</h1>
     </div>
     <div>
         <img src="<?=BASEURL;?>/img/home image.jpg" style="width: auto" class="card-img-top mx-auto d-block rounded shadow m-3" alt="...">
     </div>
+
+
 </div>
 
 <div class="container">
@@ -63,8 +65,8 @@
             <div class="card-body">
                 <h5 class="card-title text-md-center">Pengembangan Skil</h5>
                 <p class="card-text text-md-center"><br>Kemampuan bagi anak tidak hanya berfokus pada pendidikan formal, mereka juga membutuhkan
-                pengembangan skill sebagai penunjang keberhasilan. Namun, keterbatasan dan fasilitas yang tidak memadai membuat mereka tidak bisa
-                mengembangkan kemampuan mereka secara maksimal <br><br>
+                pengembangan skill sebagai penunjang keberhasilan. Namun, fasilitas yang tidak memadai membuat mereka tidak bisa
+                mengembangkan kemampuan mereka <br><br>
                     <a href="#" class="text-decoration-none">Read More</a> <br>
                     <a href="#" class="btn btn-primary">Bantu Mereka</a>
                 </p>

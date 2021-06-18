@@ -1,4 +1,4 @@
-<div class="container mt-3 mb-3 " style="width: 450; height: 700">
+<div class="container mt-3 mb-3 " style="width: 450">
     <div class="card card-primary">
         <div class="card-header">
             <h3 class="text-md-center">LOGIN</h3>
