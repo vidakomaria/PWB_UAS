@@ -5,7 +5,7 @@
         <h1>Ikuti Perkembangan Donasi Anda</h1>
         <h5>Ketahui Bagaimana Donasi Anda Berdampak Pada Anak-Anak Indonesia</h5>
       </div>
-     <img src="img/children.jpg" alt="Perkembangan Donasi" class="card-img-top mx-auto d-block rounded shadow m-3" style="width: 90%">
+     <img src="<?=BASEURL;?>/img/children.jpg" alt="Perkembangan Donasi" class="card-img-top mx-auto d-block rounded shadow m-3" style="width: 90%">
 		</div>
 	</div>
 </div>
@@ -36,7 +36,7 @@
     <div class="container mt-3 " style="width: 430">
         <div class="card">
             <div class="card-header">
-                <h3 class="text-md-center">LOGIN</h3>
+                <h3 class="text-md-center">CREATE AKUN</h3>
             </div>
             <div class="card-body ">
                 <div>
@@ -72,10 +72,7 @@
                         </div>
                     </div>
                     <div class="d-grid gap-2 col-10 mx-auto">
-                        <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
-                    </div>
-                    <div class="mt-5 text-muted text-center">
-                        Don't have an account? <a href="#">Create One</a>
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Create</button>
                     </div>
                 </form>
             </div>
