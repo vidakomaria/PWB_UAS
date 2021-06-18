@@ -14,16 +14,21 @@ class Akun_model{
         return $this->db->resultAll();
     }
 
-    public function getLogin($username, $password){
+    public function getAkun($username, $password){
         $this->db->query('SELECT * FROM ' . $this->tabel . ' WHERE username=:user AND password=:pass');
         $this->db->bind('user', $username);
         $this->db->bind('pass', $password);
-        $result = $this->db->resultSingle();
-        if (isset($result)){
-            $_SESSION["status"]=true;
-        } else{
-            $_SESSION["status"]=false;
-        }
+
+//        if (isset($result)){
+//            $_SESSION["status"]=true;
+//        } else{
+//            $_SESSION["status"]=false;
+//        }
+        return $this->db->resultAll();
+    }
+
+    public function addAkun(){
+
     }
 
     public function clearsession(){
