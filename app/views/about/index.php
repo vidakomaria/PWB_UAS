@@ -2,7 +2,7 @@
   <div class="row align-items-center justify-content-center">
     <div class="col-sm-12 col-md-5">
       <h1>About Us</h1>
-      <p>
+      <p style="text-align:justify;">
       Tujuan utama kami adalah untuk mewujudkan masyarakat yang berakhlak mulia, bermoral,
       beretika, berbudaya, dan beradab berdasarkan falsafah Pancasila. Harapan kami membimbing lebih
       banyak orang untuk ikut berupaya dalam mewujudkan bangsa yang berdaya-saing. Kami yakin bahwa
@@ -28,7 +28,7 @@
 <div class="container">
   <div class="row justify-content-center p-5">
     <div class="col-sm-8">
-      <div class="p-12 bg-light">
+      <div class="p-12 bg-light" style="text-align:justify;">
       “If poverty is a disease that infects the entire community in the form of unemployment and violence, failing schools and broken homes,
       then we can’t just treat those symptoms in isolation. We have to heal that entire community.” — Barack Obama
       <br>
@@ -45,7 +45,7 @@
           Hubungi Kami Sekarang!
           </button>
           <h1>Layanan Donatur Kami</h1>
-          <p>
+          <p style="text-align:justify;">
             Kami memberikan kemudahan bagi anda yang ingin ikut berkontribusi menuju kebaikan
             bersama Indonesia. Donasi anda akan disalurkan kepada pihak paling membutuhkan.
             <br>
@@ -75,7 +75,7 @@
           Berdonasi Sekarang!
           </button>
           <h1>Email Resmi Kami</h1>
-          <p>
+          <p style="text-align:justify;">
             Kami terbuka dalam kolaborasi atau pun kerjasama dengan instansi yang mampu mendukung
             pencapaian tujuan besar kami. Kirim proposal kerja sama anda melalui email ke id.donate@wecare.org
           </p>
