@@ -1,5 +1,5 @@
 <?php
 
-class createAkun(){
-    private $tabel = 'donasi'
+class createAkun{
+    private $tabel = 'donasi';
 }
