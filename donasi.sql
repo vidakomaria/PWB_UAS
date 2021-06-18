@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 17 Jun 2021 pada 14.43
+-- Waktu pembuatan: 18 Jun 2021 pada 07.44
 -- Versi server: 10.4.17-MariaDB
 -- Versi PHP: 7.4.15
 
@@ -29,18 +29,33 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `akun` (
   `idAkun` int(11) NOT NULL,
-  `nama` varchar(100) NOT NULL,
+  `nama lengkap` varchar(100) NOT NULL,
   `username` varchar(30) NOT NULL,
-  `password` varchar(30) NOT NULL
+  `password` varchar(30) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `noHp` varchar(25) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data untuk tabel `akun`
 --
 
-INSERT INTO `akun` (`idAkun`, `nama`, `username`, `password`) VALUES
-(1, 'donatur', 'user', '123'),
-(2, 'donatur2', 'user2', '111');
+INSERT INTO `akun` (`idAkun`, `nama lengkap`, `username`, `password`, `email`, `noHp`) VALUES
+(1, 'donatur', 'user', '123', 'donatur1@gmail.com', '081234567990'),
+(2, 'donatur2', 'user2', '111', '', '0');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `data donasi`
+--
+
+CREATE TABLE `data donasi` (
+  `idAkun` int(10) NOT NULL,
+  `tanggal` date NOT NULL,
+  `jumlah` int(50) NOT NULL,
+  `keterangan` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Indexes for dumped tables

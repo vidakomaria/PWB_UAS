@@ -26,6 +26,10 @@ class Akun_model{
         }
     }
 
+    public function addAkun($newData){
+
+    }
+
     public function clearsession(){
         session_destroy();
     }
