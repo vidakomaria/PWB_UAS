@@ -38,10 +38,11 @@
     </div>
   </div>
 </div>
+
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
-          <button type="button" class="btn btn-outline-warning mb-3">
+          <button type="button" class="btn btn-outline-success mb-3">
           Hubungi Kami Sekarang!
           </button>
           <h1>Layanan Donatur Kami</h1>
@@ -55,9 +56,10 @@
             <br>
             Vida Komaria (+62 822-5760-0224)
             <br>
-            Nabila Syafa'ah Shoufia Dalillah (+62 895-1316-1216)
-          </p>
+            Nabila Syafa'ah Shoufia Dalillah (+62 895-1316-1216)</p>
         </div>
+          
+
         <div class="col-md-5"></div>
         <div class="col-md-5"></div>
         <div class="col-md-5">
