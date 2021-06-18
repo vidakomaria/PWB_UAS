@@ -1,6 +1,6 @@
 <div class="container costum">
   <div class="row align-items-center justify-content-center">
-    <div class="col-sm-12 col-md-5">
+    <div class="col-sm-12 col-md-6">
       <h1>About Us</h1>
       <p style="text-align:justify;">
       Tujuan utama kami adalah untuk mewujudkan masyarakat yang berakhlak mulia, bermoral,
@@ -18,7 +18,7 @@
         Support us
       </button>
     </div>
-    <div class="col-sm-12 col-md-5 offset-1 img-responsive">
+    <div class="col-sm-12 col-md-6 img-responsive">
       <img
         src="img/About Us.jpg"
         alt="About Us Image"
@@ -72,7 +72,7 @@
         </div>
         <div class="col-md-5">
           <button type="button " class="btn btn-outline-success mb-3">
-          Berdonasi Sekarang!
+          Bermitra Sekarang!
           </button>
           <h1>Email Resmi Kami</h1>
           <p style="text-align:justify;">
