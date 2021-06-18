@@ -34,6 +34,7 @@
       <br>
       (Jika kemiskinan adalah penyakit yang menginfeksi seluruh komunitas dalam bentuk pengangguran dan kekerasan, pendidikan yang gagal,
       dan rumah tangga yang berantakan, maka kita tidak bisa begitu saja mengobati gejala-gejala itu secara terpisah. Kita harus menyembuhkan seluruhnya.)
+      </div>
     </div>
   </div>
 </div>
@@ -56,7 +57,8 @@
             Vida Komaria (+62 822-5760-0224)
             <br>
             Nabila Syafa'ah Shoufia Dalillah (+62 895-1316-1216)</p>
-            </div>
+        </div>
+          
 
         <div class="col-md-5"></div>
         <div class="col-md-5"></div>
