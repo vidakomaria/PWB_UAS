@@ -5,6 +5,12 @@
         </div>
         <div class="card-body">
             <form method="POST" action="<?=BASEURL;?>/createakun/addAkun">
+                <?php if (isset($_SESSION['hasil'])){?>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong>Akun Berhasil Ditambahkan</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                <?php }?>
                 <div class="mb-3">
                     <input type="text" class="form-control" id="nama" name="nama" placeholder="Nama Lengkap" required>
                 </div>

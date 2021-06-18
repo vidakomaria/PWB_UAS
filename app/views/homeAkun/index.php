@@ -10,11 +10,11 @@
                             <th scope="row">Id Akun</th>
                             <td>
                                 <?php $idAkun=$item['idAkun'];?>
-                                <input class="form-control" type="text" name="idAkun" value='<?=$idAkun?>' required>
+                                <input class="form-control" type="text" name="idAkun" value='<?=$idAkun?>' required >
                             </td>
                             <td>
                                 <div class="col"><a href="<?=BASEURL;?>/donasi/riwayatDonasi/<?=$idAkun;?>">
-                                        <button class="btn btn-warning " type="submit">Riwayat Donasi</button></a>
+                                        <button class="btn btn-warning " type="button">Riwayat Donasi</button></a>
                                 </div>
                             </td>
                         </tr>

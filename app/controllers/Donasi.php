@@ -14,6 +14,5 @@ class Donasi extends Controller{
         $this->view('templates/header',$data);
         $this->view('donasi/riwayat',$data);
         $this->view('templates/footer');
-
     }
 }

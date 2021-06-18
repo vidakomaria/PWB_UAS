@@ -14,7 +14,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($data['donasi'] as $item ){?>
+                <?php foreach ($data['donasi'] as $item){?>
                     <tr>
                         <td><?=$item['idDonasi']?></td>
                         <td><?=$item['idAkun']?></td>

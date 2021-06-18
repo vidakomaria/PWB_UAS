@@ -47,7 +47,6 @@ class Akun extends Controller {
         if ($this->model('Akun_model')->editAkun($_POST['nama'],$_POST['username'],$_POST['password'], $_POST['email'], $_POST['noHp'], $_POST['idAkun']) > 0){
             $_SESSION['update']=true;
             header("Location: " . BASEURL . '/akun');
-            exit;
         }
     }
 }

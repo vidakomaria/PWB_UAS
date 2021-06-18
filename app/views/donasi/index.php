@@ -39,7 +39,7 @@
     <div class="card-header text-md-center">
         <div class="row">
             <div class="col ">Mari Berdonasi Sekarang</div>
-            <div class="col"><a href="<?=BASEURL;?>/createakun"><button class="btn btn-warning " type="submit">Sign In</button></a></div>
+            <div class="col"><a href="<?=BASEURL;?>/createakun"><button class="btn btn-warning " type="button">Sign In</button></a></div>
         </div>
     </div>
 </div>
