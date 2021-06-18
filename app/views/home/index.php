@@ -1,10 +1,12 @@
 <div class="container mt-3">
-    <div class="card-header" style="text-align:center;">
+    <div class="card-header">
         <h1>Bantu Generasi Muda untuk Melanjutkan Mimpi Mereka</h1>
     </div>
     <div>
         <img src="<?=BASEURL;?>/img/home image.jpg" style="width: auto" class="card-img-top mx-auto d-block rounded shadow m-3" alt="...">
     </div>
+
+
 </div>
 
 <div class="container">
