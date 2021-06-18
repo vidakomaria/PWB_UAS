@@ -12,7 +12,7 @@
 <div class="container">
     <div class="card-header text-md-center">
         <p>
-            Daftar diri Anda untuk membantu mereka <br>
+            Daftarkan diri Anda untuk membantu mereka.<br>
             Bergabung bersama kami untuk terus mendapatkan cerita perubahan dari Anak-anak Indonesia dan kegiatan <span>WeCareIndo</span> lainnya.
             Ketahui bagaimana donasi anda membawa perubahan nyata bagi hidup mereka.
         </p>
@@ -34,6 +34,7 @@
         </div>
     </section>
 </div>
+<br>
 
 <div class="container m-" style="width: 500">
     <div class="card-header text-md-center">
@@ -43,5 +44,4 @@
         </div>
     </div>
 </div>
-
-
+<br>
