@@ -18,17 +18,11 @@ class Akun_model{
         $this->db->query('SELECT * FROM ' . $this->tabel . ' WHERE username=:user AND password=:pass');
         $this->db->bind('user', $username);
         $this->db->bind('pass', $password);
-
-//        if (isset($result)){
-//            $_SESSION["status"]=true;
-//        } else{
-//            $_SESSION["status"]=false;
-//        }
         return $this->db->resultAll();
     }
 
     public function addAkun(){
-
+        
     }
 
     public function clearsession(){
