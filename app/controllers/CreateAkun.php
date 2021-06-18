@@ -3,7 +3,7 @@
 class CreateAkun extends Controller {
 
     public  function index(){
-        $data['judul']='Akun';
+        $data['judul']='Sign Up';
         $this->model("Akun_model")->clearsession();
         $this->view('templates/header',$data);
         $this->view('createAkun/index');

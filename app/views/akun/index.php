@@ -4,10 +4,10 @@
             <h3 class="text-md-center">LOGIN</h3>
         </div>
         <div class="card-body">
-            <form method="POST" action="<?=BASEURL;?>/akun/login">
+            <form method="POST" action="<?=BASEURL;?>/akun/tampilkanAkun">
                 <div class="mb-3">
                     <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" required>
+                    <input type="text" class="form-control" id="username" name="username" required autocomplete="off">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
@@ -22,15 +22,16 @@
                     </div>
                 </div>
                 <div class="form-group d-grid gap-2 col-10 mx-auto">
-                    <button class="btn btn-primary btn-lg btn-block" type="submit"><a href=""></a>Login</button>
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
                 </div>
-                <?php if (isset($_SESSION['error'])){
-                    if ($_SESSION['error']===true){ ?>
-                        <div class="alert alert-danger" role="alert">
-                            <h6>Maaf Username dan Password Salah</h6>
-                        </div>
-                    <?php }}?>
             </form>
+            <div>
+                <?php if (isset($data['error'])){?>
+                    <div class="alert alert-danger" role="alert">
+                        <h6>Username/Password salah</h6>
+                    </div>
+                <?php }?>
+            </div>
         </div>
         <div class="mt-5 text-muted text-center">
             Don't have an account? <a href="<?=BASEURL;?>/createakun">Create One</a>
